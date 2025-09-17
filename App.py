@@ -21,8 +21,7 @@ import re
 import pandas as pd
 
 # Load datasets
-fake = pd.read_csv('Fake.csv')
-real = pd.read_csv('True.csv')
+
 
 # Add labels
 fake['label'] = 0  # Fake news
