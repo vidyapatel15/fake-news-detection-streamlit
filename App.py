@@ -13,7 +13,10 @@ Original file is located at
 Fake News Detection Using Machine Learning & NLP
 """
 
-pip install pandas numpy scikit-learn nltk matplotlib seaborn
+import streamlit as st
+import pickle
+import re
+
 
 import pandas as pd
 
