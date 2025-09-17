@@ -113,7 +113,7 @@ pickle.dump(vectorizer, open('tfidf_vectorizer.pkl', 'wb'))
 
 """Deployment"""
 
-!pip install streamlit
+
 
 import streamlit as st
 import pickle
